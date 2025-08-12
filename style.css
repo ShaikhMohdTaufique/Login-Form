@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+color: white;
+}
+/* big div */
+.usr{
+    background-color: rgb(212, 216, 204);
+    height: 400px;
+    width: 350px;
+    font-size: 17px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 8px;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+/* second div */
+#l1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+/* user */
+#userinput, #passinp, #logbtn{
+    padding: 6px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+color: black
+}
+/* button */
+#logbtn{
+    width: 250px;
+    color: black;
+
+}
+
+#log1{
+    margin-top: 50px;
+
+}
+/* line */
+hr{
+    color: white;
+    border: 2px solid rgb(244, 238, 238);
+    width: 300px;
+    margin-top: 20px;
+}
